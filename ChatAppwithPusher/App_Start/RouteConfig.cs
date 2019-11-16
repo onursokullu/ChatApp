@@ -18,6 +18,8 @@ namespace ChatAppwithPusher
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            //Bozduğun routeları yeniden yap
+            //Mesajları almak için bir route ekle /contact``/conversations/{contact} "This route will accept a contact ID, retrieve messages between the current user and the contact, then return the messages in a JSON response."
         }
     }
 }
